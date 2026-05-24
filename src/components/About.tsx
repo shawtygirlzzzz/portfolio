@@ -16,7 +16,7 @@ export default function About() {
             A bit about who I am and what I'm working towards.
           </p>
         </div>
-        <div className="hidden md:block w-24 lg:w-32 flex-shrink-0">
+        <div className="w-14 sm:w-20 lg:w-32 flex-shrink-0">
           <NeuralNetIcon className="w-full h-auto" />
         </div>
       </div>

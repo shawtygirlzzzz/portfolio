@@ -26,7 +26,7 @@ export default function Skills() {
             Technologies and concepts I use day-to-day.
           </p>
         </div>
-        <div className="hidden md:block w-24 lg:w-32 flex-shrink-0">
+        <div className="w-14 sm:w-20 lg:w-32 flex-shrink-0">
           <HexGridIcon className="w-full h-auto" />
         </div>
       </div>

@@ -144,8 +144,10 @@ export default function Hero() {
           </div>
           </div>
 
-          <div className="hidden lg:flex justify-end relative z-10">
-            <RobotMascot />
+          <div className="flex justify-center lg:justify-end relative z-10 mt-6 lg:mt-0">
+            <div className="w-56 sm:w-72 lg:w-auto">
+              <RobotMascot />
+            </div>
           </div>
         </div>
       </div>

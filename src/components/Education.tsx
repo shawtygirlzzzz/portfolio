@@ -17,7 +17,7 @@ export default function Education() {
             Academic background and continued learning.
           </p>
         </div>
-        <div className="hidden md:block w-24 lg:w-32 flex-shrink-0">
+        <div className="w-14 sm:w-20 lg:w-32 flex-shrink-0">
           <OrbitIcon className="w-full h-auto" />
         </div>
       </div>

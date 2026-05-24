@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="section-tag mb-0">
           <span className="text-accent-green">$_</span> contact
         </div>
-        <div className="hidden md:block w-20 lg:w-24 flex-shrink-0">
+        <div className="w-12 sm:w-16 lg:w-24 flex-shrink-0">
           <SignalIcon className="w-full h-auto" />
         </div>
       </div>
