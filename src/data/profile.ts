@@ -5,7 +5,7 @@ export const profile = {
   tagline:
     'Building practical AI — multi-modal vision systems, autonomous agents, and mobile tools.',
   bio: [
-    "Hi, I'm Fareen — a final-year BSc (Hons) Computer Science (AI) student at Universiti Teknikal Malaysia Melaka. I completed my Diploma in Computer Science at UTeM in early 2025, and I'm now working on my final-year project ahead of an industry internship.",
+    "Hi, I'm Fareen — a final-year BSc (Hons) Computer Science (AI) student at Universiti Teknikal Malaysia Melaka. I completed my Diploma in Computer Science at UTeM in early 2025, and I've just finished my final-year project: HeyCyan, a hands-free AI tourist guide for Malacca that runs on smart glasses. Next up is an industry internship.",
     'I love building AI that actually does something — multi-modal LLM surveillance systems, autonomous agent swarms, computer-vision tools, and mobile apps. The goal: turn modern AI research into deployable tools people can use.',
   ],
   email: 'fnathrah@gmail.com',
