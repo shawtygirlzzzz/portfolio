@@ -12,7 +12,7 @@ export const education: EducationItem[] = [
     institution: 'Universiti Teknikal Malaysia Melaka (UTeM)',
     period: 'Mar 2025 — Present',
     details: [
-      'Current CGPA: 3.56',
+      'Current CGPA: 3.68',
       'Relevant coursework: Natural Language Processing, Machine Learning, Neural Networks.',
       'Final-year project: HeyCyan — a hands-free AI tourist guide for Malacca running on smart glasses.',
     ],
