@@ -23,21 +23,20 @@ export const projects: Project[] = [
     slug: 'heycyan-tourism-assistant',
     title: 'HeyCyan — AI Tourist Guide for Malacca',
     description:
-      'A multimodal AI tourist guide for Malacca that uses computer vision and voice interaction to identify landmarks and restaurants in real time. Includes restaurant mode with Google Places integration, multilingual support (EN / MS / ZH), and optional BLE smart-glasses pairing for hands-free exploration.',
+      'A hands-free AI tourist guide for Malacca built on HeyCyan smart glasses. A press of the temple button captures the landmark through the glasses camera and records the question through their mic; a FastAPI backend sends both to Gemini, and the answer is spoken back through the glasses in English or Malay. A cue tone opens a follow-up window so each stop becomes a conversation rather than a one-shot lookup.',
     technologies: [
       'Kotlin',
       'Jetpack Compose',
       'Python',
       'FastAPI',
-      'Gemini 2.5 Flash',
-      'Google Places API',
+      'Gemini 3.5 / 2.5 Flash',
+      'BLE + WiFi Direct',
     ],
     category: 'Mobile',
     githubUrl: 'https://github.com/shawtygirlzzzz/Code_FYP_Latest',
     keyLearning:
-      "Integrating a vision LLM into a real-time mobile experience — grounding Gemini's responses with Google Search and Places data, handling multilingual TTS, and pairing with BLE smart glasses for hands-free use.",
+      "Most of the work was below the AI layer. The glasses SDK's capture call is secretly two-phase and returns the photo in 1KB chunks the caller has to reassemble, and Android's SpeechRecognizer kept hijacking the phone mic — so I dropped it and recorded the audio myself, letting Gemini transcribe. Splitting recognition and follow-ups across two Gemini models cut a 45-second wait down to about three.",
     featured: true,
-    wip: true,
   },
   {
     slug: 'camera-surveillance-llm',
