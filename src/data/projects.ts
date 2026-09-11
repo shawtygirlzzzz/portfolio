@@ -33,8 +33,7 @@ export const projects: Project[] = [
       'Google Places API',
     ],
     category: 'Mobile',
-    githubUrl:
-      'https://github.com/shawtygirlzzzz/Multimodal-AI-Personal-Assistant-for-Tourism',
+    githubUrl: 'https://github.com/shawtygirlzzzz/Code_FYP_Latest',
     keyLearning:
       "Integrating a vision LLM into a real-time mobile experience — grounding Gemini's responses with Google Search and Places data, handling multilingual TTS, and pairing with BLE smart glasses for hands-free use.",
     featured: true,
