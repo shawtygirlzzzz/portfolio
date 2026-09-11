@@ -14,6 +14,7 @@ export const education: EducationItem[] = [
     details: [
       'Current CGPA: 3.56',
       'Relevant coursework: Natural Language Processing, Machine Learning, Neural Networks.',
+      'Final-year project: HeyCyan — a hands-free AI tourist guide for Malacca running on smart glasses.',
     ],
     current: true,
   },
